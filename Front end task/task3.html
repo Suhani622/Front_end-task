@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Page</title>
+    <style>
+        body {
+            background-color:rgb(111, 111, 234);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1,
+        h2 {
+            color: white;
+        }
+
+        p {
+            font-size: 1.2rem;
+            color: white;
+            max-width: 600px;
+            margin: 20px auto;
+            margin: 20px auto;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        @media (min-width: 768px) {
+            .container {
+                padding: 40px;
+            }
+
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            h2 {
+                font-size: 1.8rem;
+            }
+
+            p {
+                font-size: 1.4rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Responsive Page Using HTML and CSS</h1>
+        <h2>Enhanced for Better Responsiveness</h2>
+        <p>
+            We are making a responive page to provide better experience for our users.This site will provide better user
+            experience as the design can work on different screens according to user accessibility.
+        </p>
+        <picture>
+            <source media="(min-width: 768px)" srcset="">
+            <img src="image3.jpeg" alt="Mountain image" width="200" height="200">
+        </picture>
+    </div>
+</body>
+
+</html>

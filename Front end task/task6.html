@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            text-align: center;
+            justify-content: center;
+
+        }
+
+        h2 {
+            text-align: center;
+            margin: 5px;
+        }
+
+        form {
+            border: 2px solid gray;
+            border-radius: 5px;
+            padding: 23px;
+            margin: 48px auto;
+            width: 21rem;
+        }
+
+        #nam {
+            width: 14rem;
+            padding: 10px;
+
+        }
+
+        #passw {
+            width: 15rem;
+            padding: 10px;
+        }
+
+        #con {
+            width: 19rem;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Form Validation</h2>
+    <form id="Form">
+        <div id="nam">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+        </div>
+        <div id="passw">
+            <label for="pass">Password:</label>
+            <input type="password" name="password" id="password" placeholder="Enter password">
+        </div>
+        <div id="con">
+            <label for="pas">Confirm Password:</label>
+            <input type="password" name="confirm password" id="confirm password" placeholder="Enter password">
+
+        </div>
+        <div id="sub">
+            <button id="btn" type="submit">Submit</button>
+        </div>
+
+
+    </form>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
